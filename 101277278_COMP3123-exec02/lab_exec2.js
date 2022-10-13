@@ -1,4 +1,4 @@
-// Exercise 1.
+// Exercise 01
 let gretter = (myArray, counter) => {
   const greetText = "Hello";
   for (const element of myArray) {
@@ -8,7 +8,7 @@ let gretter = (myArray, counter) => {
 
 gretter(["Randy Savage", "Rick Flair", "Hulk Hogan"], 3);
 
-// Exercise 2.
+// Exercise 02
 function capitalize(word) {
   let firstLetter, remain;
   [firstLetter, ...remain] = word;
@@ -18,7 +18,7 @@ function capitalize(word) {
 console.log(capitalize("nodeJs"));
 console.log(capitalize("fooBar"));
 
-// Exercise 3.
+// Exercise 03
 const colors = ["red", "green", "blue"];
 
 const capitalizedColors = colors.map(
@@ -27,7 +27,7 @@ const capitalizedColors = colors.map(
 
 console.log(capitalizedColors);
 
-// Exercise 4.
+// Exercise 04
 var values = [1, 60, 34, 30, 20, 5];
 
 var filterLessThan20 = values.filter((numberInArr) => {
@@ -36,7 +36,7 @@ var filterLessThan20 = values.filter((numberInArr) => {
 
 console.log(filterLessThan20);
 
-// Exercise 5.
+// Exercise 05
 var array = [1, 2, 3, 4];
 
 var calculateSum = array.reduce((returnedVal, currentVal) => {
@@ -51,7 +51,7 @@ var calculateProduct = array.reduce((returnedVal, currentVal) => {
 
 console.log(calculateProduct);
 
-// Exercise 6.
+// Exercise 06
 class Car {
   constructor(model, year) {
     this.model = model;
