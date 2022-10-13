@@ -1,4 +1,4 @@
-// Exercise 1
+// Exercise 01
 function capitalize_first_letters(string) {
   if (string.length == 0) return null;
 
@@ -14,12 +14,12 @@ function capitalize_first_letters(string) {
   // Todo: need to delete the last space
 }
 
-// Exercise 2
+// Exercise 02
 function max(num1, num2, num3) {
   return Math.max(num1, num2, num3);
 }
 
-// Exercise 3
+// Exercise 03
 function right(string) {
   if (string.length <= 3) return string;
 
@@ -27,7 +27,7 @@ function right(string) {
   return string.slice(slice) + string.slice(0, slice);
 }
 
-// Exercise 4
+// Exercise 04
 function angle_type(angle) {
   if (angle < 90) return "Acute Angle";
   if (angle == 90) return "Right Angle";
