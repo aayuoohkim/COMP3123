@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./index.js localhost 8081",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "echo": "Hello World"
   },
   "keywords": [
     "sample",
