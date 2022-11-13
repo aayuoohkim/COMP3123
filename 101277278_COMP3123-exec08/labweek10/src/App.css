@@ -1,0 +1,118 @@
+form {
+  border: 2px dotted green;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 60%;
+  margin: 7rem auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  margin: 0.7rem 0;
+}
+
+div.first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+div.second {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+#name_val,
+#email_val {
+  width: 100%;
+}
+
+#addr1_val,
+#addr2_val,
+#city_val,
+#pr,
+#pos_val {
+  width: 100%;
+}
+
+#prov_val {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+input {
+  height: 30px;
+}
+
+#pr {
+  height: 35px;
+  margin-top: 0.2rem;
+}
+
+#check_box,
+#submit_button {
+  display: flex;
+  justify-content: center;
+}
+
+#check_box {
+  align-items: center;
+}
+#check_box input {
+  margin-right: 1rem;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  display: block;
+}
+
+.output_div {
+  margin: 4rem auto;
+  padding: 1rem;
+  text-align: center;
+  width: 60%;
+}
+
+#output_set {
+  display: grid;
+}
+
+#output_set h2 {
+  grid-column-start: span 2;
+}
+#col1,
+#col2 {
+  font-size: 14pt;
+}
+
+#col1 {
+  text-align: right;
+  font-weight: bold;
+  margin: 0.3rem;
+  color: green;
+}
+
+#col2 {
+  text-align: left;
+  margin: 0.3rem;
+}
