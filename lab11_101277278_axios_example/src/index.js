@@ -21,7 +21,7 @@ class PersonList extends React.Component {
 
   createPersonLists(person) {
     return (
-      <Card className="text-center" style={{ width: "400px", margin: "10px" }}>
+      <Card className="text-center" style={{ width: "200px", margin: "10px" }}>
         <Card.Img variant="top" src={person.picture.large}></Card.Img>
         <Card.Body>
           <Card.Title>{person.login.username}</Card.Title>
@@ -44,9 +44,7 @@ class PersonList extends React.Component {
   render() {
     return (
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <div>
-          {this.state.persons.map((person) => this.createPersonLists(person))}
-        </div>
+        {this.state.persons.map((person) => this.createPersonLists(person))}
       </div>
     );
   }
